@@ -13,6 +13,8 @@ const webpackConfig = {
     ]
   },
 
+  target: 'electron-renderer',
+
   resolve: {
     extensions: ['.ts', '.tsx', '.js']
   },

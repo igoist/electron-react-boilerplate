@@ -23,6 +23,7 @@ function createWindow () {
   globalShortcut.register('Ctrl+Y', () => {
     // Do stuff when Y and Ctrl is pressed.
     console.log('Ctrl+Y');
+    win.webContents.send('mode-change', Math.random());
   })
 }
 
